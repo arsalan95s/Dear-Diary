@@ -14,3 +14,7 @@ void draw() {
 void mouseMoved() {
   visualizer.interact(mouseX, mouseY);
 }
+
+void mouseClicked() {
+  visualizer.click(mouseX, mouseY);
+}
